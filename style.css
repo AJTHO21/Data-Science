@@ -22,14 +22,14 @@ section {
 }
 
 footer p {
-    color: white; /* This keeps "Contact me:" in white */
+    color: white; /* Ensures the entire "Contact me:" line stays white */
 }
 
-footer a {
-    color: white; /* This changes the email address to white */
-    text-decoration: none;
+footer p a {
+    color: white !important; /* Forces the email link to be white */
+    text-decoration: none; /* Removes underline */
 }
 
-footer a:hover {
-    text-decoration: underline;
+footer p a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
 }
