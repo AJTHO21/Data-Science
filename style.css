@@ -28,12 +28,12 @@ footer {
 }
 
 footer p {
-    color: black; /* Changes the "Contact me:" text to black */
+    color: black; /* Changes the "Contact me:" text to white */
     margin: 0; /* Removes unnecessary margins */
 }
 
 footer p a {
-    color: black !important; /* Changes the email link to black */
+    color: black !important; /* Changes the email link to white */
     text-decoration: none; /* Removes underline */
 }
 
