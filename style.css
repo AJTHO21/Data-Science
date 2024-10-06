@@ -21,25 +21,15 @@ section {
     margin: 2rem;
 }
 
-footer {
-    background-color: #333; /* Adds dark background for contrast */
-    color: white; /* Ensures all text inside footer is white */
-    text-align: center; /* Centers the text in the footer */
-    padding: 20px; /* Adds space around the content */
-    width: 100%; /* Ensures the footer spans the full width of the page */
-    position: relative; /* Makes sure the footer stays at the bottom */
-    bottom: 0; /* Ensures it's at the bottom of the page */
-}
-
 footer p {
-    margin: 0; /* Removes unnecessary margins */
+    color: black; /* Changes the "Contact me:" text to black */
 }
 
-footer a {
-    color: white !important; /* Ensures the email link is white */
-    text-decoration: none; /* Removes underline */
+footer p a {
+    color: black !important; /* Changes the email link to black */
+    text-decoration: none;
 }
 
-footer a:hover {
-    text-decoration: underline; /* Adds underline when hovered */
+footer p a:hover {
+    text-decoration: underline; /* Optional underline effect on hover */
 }
