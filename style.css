@@ -1,42 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-section {
-    margin: 2rem;
-}
-
-footer {
-    background-color: #333; /* Keeps the dark background for the footer */
-    padding: 20px; /* Adds space around the content */
-    text-align: center; /* Centers the text in the footer */
-}
-
-footer p {
-    color: white; /* Changes the "Contact me:" text to white */
-    margin: 0; /* Removes unnecessary margins */
-}
-
-footer p a {
-    color: white !important; /* Changes the email link to white */
-    text-decoration: none; /* Removes underline */
-}
-
-footer p a:hover {
-    text-decoration: underline; /* Optional: adds underline on hover */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ensure correct path -->
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <section>
+        <!-- Main content here -->
+    </section>
+    <footer>
+        <p>Contact me: <a href="mailto:addison20james@gmail.com">addison20james@gmail.com</a></p>
+    </footer>
+</body>
+</html>
