@@ -1,3 +1,14 @@
+header {
+    background-color: #000; /* Black background */
+    color: white; /* White text color */
+    padding: 1rem; /* Adds space around the header */
+    text-align: center; /* Centers the text */
+}
+
+header h1 {
+    margin: 0; /* Removes default margin */
+    font-size: 2rem; /* Adjust the size as needed */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
