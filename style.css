@@ -21,15 +21,22 @@ section {
     margin: 2rem;
 }
 
-footer p {
-    color: white; /* Ensures the entire "Contact me:" line stays white */
+footer {
+    background-color: #333; /* Dark background for contrast */
+    padding: 20px; /* Adds space around the content */
+    text-align: center; /* Centers the contact text */
 }
 
-footer p a {
-    color: white !important; /* Forces the email link to be white */
+footer p {
+    color: white; /* Ensures the text inside the footer stays white */
+    margin: 0; /* Removes unnecessary margins */
+}
+
+footer a {
+    color: white !important; /* Keeps email link white */
     text-decoration: none; /* Removes underline */
 }
 
-footer p a:hover {
-    text-decoration: underline; /* Optional: underline on hover */
+footer a:hover {
+    text-decoration: underline; /* Optional hover effect */
 }
