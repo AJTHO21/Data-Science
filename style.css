@@ -22,21 +22,24 @@ section {
 }
 
 footer {
-    background-color: #333; /* Dark background for contrast */
+    background-color: #333; /* Adds dark background for contrast */
+    color: white; /* Ensures all text inside footer is white */
+    text-align: center; /* Centers the text in the footer */
     padding: 20px; /* Adds space around the content */
-    text-align: center; /* Centers the contact text */
+    width: 100%; /* Ensures the footer spans the full width of the page */
+    position: relative; /* Makes sure the footer stays at the bottom */
+    bottom: 0; /* Ensures it's at the bottom of the page */
 }
 
 footer p {
-    color: white; /* Ensures the text inside the footer stays white */
     margin: 0; /* Removes unnecessary margins */
 }
 
 footer a {
-    color: white !important; /* Keeps email link white */
+    color: white !important; /* Ensures the email link is white */
     text-decoration: none; /* Removes underline */
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional hover effect */
+    text-decoration: underline; /* Adds underline when hovered */
 }
