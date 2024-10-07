@@ -7,4 +7,4 @@ I'm actively working on building a portfolio that showcases my skills in data an
 ## Contact Me
 
 - Email: [addison20james@gmail.com](mailto:addison20james@gmail.com)
-- GitHub: [AddisonJThompson](https://github.com/your-github-username)
+- GitHub: [AddisonJThompson](https://github.com/AJTHO21)
